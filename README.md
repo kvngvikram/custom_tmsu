@@ -1,7 +1,7 @@
 custom\_tmsu
 ===========
 
-[![license-badge]][license-link]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A custom modification for [TMSU](https://github.com/oniony/TMSU) file tagging command line utility, written in bash, based on [fzf](https://github.com/junegunn/fzf) fuzzy finder which helps user select tags.
 
