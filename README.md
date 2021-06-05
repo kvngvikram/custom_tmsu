@@ -6,11 +6,13 @@ custom\_tmsu
 A custom modification for [TMSU](https://github.com/oniony/TMSU) file tagging command line utility, written in bash, based on [fzf](https://github.com/junegunn/fzf) fuzzy finder which helps user select tags.
 
 
-Whenever a tmsu command needs to select tags, which will usually be at the end of the command, this script will use fzf to help user select the tags. When there is no need to select tags then this script is same as original tmsu
+Whenever a tmsu command needs to select tags, which will usually be at the end of the command, this script will use fzf to help user select the tags. When there is no need to select tags then this script is same as original tmsu.
+
 
 
 **Requirements:** [fzf](https://github.com/junegunn/fzf)
 
+**Note:** Right now nothing related to values is implemented. Fzf options will contain only the output of `tmsu tags` (just tags). You can still use values without any problem, just that there will be no fzf completion. For giving `tag=value` you will have to type it in fzf window and fzf will give out the query since nothing matches.
 
 Usage
 -----
